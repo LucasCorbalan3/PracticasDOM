@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+.contenedorprincipal{
+display: grid;
+place-items: center;
+color: #fff;
+background: rgb(1,130,1);
+background: radial-gradient(circle, rgba(1,130,1,0.7345063025210083) 0%, rgba(0,190,6,1) 100%);
+border-radius: 100px;
+}
+
+.btncomenzar{
+    border: 5px solid #007B08;
+color: #fff;
+width: 60%;
+height: 100px;
+letter-spacing: 8px;
+border-radius: 100px;
+}
+
+.Contenedor{
+    width: 100%;
+    height: 100%;
+}
+.input{
+    width: 100%;
+    height: 30%;
+    
+}
+
+.btnEnviar{
+    border: 1.5px solid rgb(0,28,1);
+    background: rgb(0,190,6);
+    background: radial-gradient(circle, rgba(0,190,6,1) 0%, rgba(1,130,1,0.7345063025210083) 96%);
+    color: #fff;
+}
