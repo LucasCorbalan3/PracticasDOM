@@ -7,6 +7,3 @@ const ComenzarJuego = () => {
 </div><br><button class="btn btnEnviar" type="button" onclick='EnviarRespuesta()' id="BtnEnviar">ENVIAR RESPUESTA</button>`);
 };
 
-const EnviarRespuesta = () => {
-  let BtnEnviar = document.querySelector("#BtnEnviar");
-};
