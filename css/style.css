@@ -8,6 +8,10 @@ body{
     background-color: black;
 }
 
+main{
+    display: grid;
+    place-items: center;
+}
 
 .contenedorprincipal{
 display: grid;
@@ -33,8 +37,6 @@ border-radius: 100px;
 }
 .input{
     width: 100%;
-    height: 30%;
-    
 }
 
 .btnEnviar{
